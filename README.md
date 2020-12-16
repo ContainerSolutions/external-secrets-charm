@@ -69,7 +69,7 @@ stringData:
   credentials.json: |-
     {
       "accessKeyID": "",
-      "secretAccessKey": "",
+      "secretAccessKey": ""
     }
 EOF
 ```
@@ -113,4 +113,4 @@ spec:
 EOF
 ```
 
-A Secret named `externalsecret-sample` will be created.
+A Secret named `externalsecret-sample` will be created with the content from the AWS Secret Manager key created before.
