@@ -1,0 +1,7 @@
+# Copyright 2020 Jonatas Baldin
+# See LICENSE file for licensing details.
+name: external-secrets-operator
+description: |
+  This Charm deploys the [externalsecrets-operator](https://github.com/ContainerSolutions/externalsecret-operator) operator, which reads information from a third party service like AWS Secrets Manager or AWS SSM and automatically injects the values as Kubernetes Secrets.
+summary: |
+series: [kubernetes]
